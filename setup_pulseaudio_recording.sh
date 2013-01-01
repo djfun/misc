@@ -14,3 +14,4 @@ echo 'set-default-source alsa_input.pci-0000_00_1b.0.analog-stereo' | pacmd
 pactl load-module module-loopback
 
 echo 'set-default-source mywiretap.monitor' | pacmd
+echo 'set-default-sink alsa_output.usb-M-Audio_FastTrack_Pro-00-Pro.analog-stereo-a-output' | pacmd
